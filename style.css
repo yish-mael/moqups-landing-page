@@ -214,3 +214,23 @@ input[type=text], input[type=email], textarea {
     padding: 10px;
     border: solid thin #CCC;
 } 
+
+#download-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid thin #CCC;
+}
+
+.download-title {
+    line-height: normal;
+    font-weight: 100;
+}
+
+#download-left {
+    display: flex;
+    align-self: center;
+}
+
