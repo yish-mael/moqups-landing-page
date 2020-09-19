@@ -234,3 +234,8 @@ input[type=text], input[type=email], textarea {
     align-self: center;
 }
 
+#footer {
+    padding: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
