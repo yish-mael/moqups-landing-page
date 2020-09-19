@@ -183,7 +183,34 @@ h2 {
     justify-content: center;
 }
 
-hr {
+.hr-centered {
     margin-left: 35%;
     margin-right: 35%;
 }
+
+#get-in-touch-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "leftSection rightSection";
+    padding: 100px;
+    border-bottom: solid thin #CCC;
+}
+
+#left-section {
+    grid-area: leftSection;
+}
+
+#right-section {
+     grid-area: rightSection;
+     display: flex;
+     justify-content: center;
+}
+
+.form-layer {
+    padding: 10px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 10px;
+    border: solid thin #CCC;
+} 
